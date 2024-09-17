@@ -15,6 +15,15 @@
 
 - Congratulation! A fully-functional K8s cluster is up. Next step is to add more server or agent nodes on your demand.
 
+  ```
+  Installing...
+
+  Server started at https://myserver:6443
+  Server token is mytoken
+
+  Done!
+  ```
+
 # Install additional nodes
 
 - One-click to install an agent node, and register to a running server node:
@@ -28,4 +37,3 @@
   ```shell
   curl -sfL https://get.bare-k8s.io | BARE_K8S_URL=https://myserver:6443 BARE_K8S_SECRET=mysecret sh -
   ```
-# bare-k8s
