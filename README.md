@@ -20,6 +20,7 @@
 
   Server started at https://myserver:6443
   Server token is mytoken
+  Server secret is mysecret
 
   Done!
   ```
