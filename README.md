@@ -29,11 +29,11 @@
 - One-click to install an agent node, and register to a running server node:
 
   ```shell
-  curl -sfL https://get.bare-k8s.io | BARE_K8S_URL=https://myserver:6443 BARE_K8S_TOKEN=mytoken sh -
+  curl -sfL https://get.bare-k8s.io | B8S_URL=https://myserver:6443 B8S_TOKEN=mytoken sh -
   ```
 
 - One-click to install a server node for High Availability:
 
   ```shell
-  curl -sfL https://get.bare-k8s.io | BARE_K8S_URL=https://myserver:6443 BARE_K8S_SECRET=mysecret sh -
+  curl -sfL https://get.bare-k8s.io | B8S_URL=https://myserver:6443 B8S_SECRET=mysecret sh -
   ```
